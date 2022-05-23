@@ -24,6 +24,7 @@ switches:
   - name: extended_charset
     states: [ 常用, 扩展 ]
   - name: ascii_punct
+    reset: 1
     states: [ 。，, ．， ]
 
 engine:
